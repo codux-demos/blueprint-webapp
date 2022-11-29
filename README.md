@@ -1,4 +1,4 @@
-# blueprint-webapp
+# Blueprint-webapp
 
 This project includes a collection of [blueprint](https://blueprintjs.com) components for you to use, and for us to showcase the capabilities of Codux.
 
