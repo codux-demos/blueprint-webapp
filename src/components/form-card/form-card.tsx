@@ -1,11 +1,18 @@
-import React from "react";
-import { Elevation, H1, TextArea, Button, Card, InputGroup } from "@blueprintjs/core";
-import defaultLogoURL from "./assets/logo.svg";
-import styles from "./form-card.module.scss";
+import type React from 'react';
+import {
+    Elevation,
+    H1,
+    TextArea,
+    Button,
+    Card,
+    InputGroup,
+} from '@blueprintjs/core';
+import defaultLogoURL from '../../assets/logo.svg';
+import styles from './form-card.module.scss';
 
 export interface FormCardProps {
-  formType?: "signin" | "contact" | "signup";
-  logoURL?: string;
+    formType?: 'signin' | 'contact' | 'signup';
+    logoURL?: string;
 }
 
 /**
@@ -16,32 +23,60 @@ export interface FormCardProps {
  *
  */
 export const FormCard: React.FC<FormCardProps> = ({
-  formType = "signin",
-  logoURL = defaultLogoURL,
+    formType = 'signin',
+    logoURL = defaultLogoURL,
 }) => {
-  const submitCaption =
-    formType === "signin" ? "Sign In" : formType === "signup" ? "Sign Up" : "Send";
-  const formTitle =
-    formType === "signin" ? "Sign In" : formType === "signup" ? "Sign Up" : "Contact Us";
+    const submitCaption =
+        formType === 'signin'
+            ? 'Sign In'
+            : formType === 'signup'
+            ? 'Sign Up'
+            : 'Send';
+    const formTitle =
+        formType === 'signin'
+            ? 'Sign In'
+            : formType === 'signup'
+            ? 'Sign Up'
+            : 'Contact Us';
 
-  return (
-    <Card className={`${styles.card} ${styles.wrapper}`} elevation={Elevation.FOUR}>
-      <div className={`${styles.card} ${styles.header}`}>
-        <img className={styles.logo} src={logoURL} />
-        <H1>{formTitle}</H1>
-      </div>
-      <InputGroup type="email" fill round placeholder="Your Email" id="email" />
+    return (
+        <Card
+            className={`${styles.card} ${styles.wrapper}`}
+            elevation={Elevation.FOUR}
+        >
+            <div className={`${styles.card} ${styles.header}`}>
+                <img className={styles.logo} src={logoURL} />
+                <H1>{formTitle}</H1>
+            </div>
+            <InputGroup
+                type="email"
+                fill
+                round
+                placeholder="Your Email"
+                id="email"
+            />
 
-      {formType !== "contact" ? (
-        <InputGroup type="password" fill round placeholder="Password" id="pass" />
-      ) : (
-        <TextArea />
-      )}
+            {formType !== 'contact' ? (
+                <InputGroup
+                    type="password"
+                    fill
+                    round
+                    placeholder="Password"
+                    id="pass"
+                />
+            ) : (
+                <TextArea />
+            )}
 
-      <div className={`${styles.card} ${styles.submit}`}>
-        {formType !== "contact" ? "Forgot your Password?" : <span />}
-        <Button text={submitCaption} className={styles.btn} intent="primary" type="submit" />
-      </div>
-    </Card>
-  );
+            <div className={`${styles.card} ${styles.submit}`}>
+                {formType !== 'contact' ? 'Forgot your Password?' : <span />}
+                <Button
+                    text={submitCaption}
+                    className={styles.btn}
+                    intent="primary"
+                    type="submit"
+                />
+            </div>
+        </Card>
+    );
 };
