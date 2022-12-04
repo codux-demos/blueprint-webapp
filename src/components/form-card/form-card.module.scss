@@ -4,28 +4,28 @@
 // Styles
 .card {
     display: flex;
-    flex-direction: column;     
-    background-color: #fafafa; 
-    font-family: 'Lato',  sans-serif;  
+    flex-direction: column;
+    background-color: #fafafa;
+    font-family: 'Lato', sans-serif;
     padding: 0;
-    gap: 0;  
+    gap: 0;
 
-    &.wrapper{   
+    &.wrapper {
         border-radius: 12px;
         min-width: 280px;
-        width: 320px; 
-        padding: 2rem;       
+        width: 320px;
+        padding: 2rem;
         gap: 1rem;
     }
 
-    &.header{
-        align-items: flex-start; 
+    &.header {
+        align-items: flex-start;
     }
 
     &.submit {
         flex-direction: row;
-        justify-content: space-between;  
-        margin-top: 3rem; 
+        justify-content: space-between;
+        margin-top: 3rem;
     }
 }
 
