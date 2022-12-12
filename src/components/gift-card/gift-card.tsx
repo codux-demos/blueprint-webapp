@@ -15,10 +15,7 @@ export interface GiftCardProps {
  * Use this demo to get a feel for how easy and fun it is to create and edit components in Codux using Blueprint.js, a 3rd party React-based UI toolkit.
  *
  */
-export const GiftCard: React.FC<GiftCardProps> = ({
-    photoURL = defaultPhotoURL,
-    full = false,
-}) => {
+export const GiftCard: React.FC<GiftCardProps> = ({ photoURL = defaultPhotoURL, full = false }) => {
     return (
         <Card
             className={`${styles.card}${full ? ` ${styles.full}` : ''}`}
@@ -28,9 +25,9 @@ export const GiftCard: React.FC<GiftCardProps> = ({
             <div className={styles['card-body']}>
                 <H1 className={styles.title}>LASHES & HAIR EXTENTIONS</H1>
                 <H5 className={styles.desc}>
-                    Donec faucibus, ante ut ultrices commodo, magna ex maximus,
-                    sodales neque dolor vitae arcu. Nam euismod, neque quis
-                    laoreet interdum. Sed magna est, dictum at faucibus.
+                    Donec faucibus, ante ut ultrices commodo, magna ex maximus, sodales neque dolor
+                    vitae arcu. Nam euismod, neque quis laoreet interdum. Sed magna est, dictum at
+                    faucibus.
                 </H5>
                 <div className={styles.promo}>
                     <H6 className={styles.email}>

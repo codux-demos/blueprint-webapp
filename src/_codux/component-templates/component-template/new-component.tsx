@@ -6,7 +6,5 @@ export interface NewComponentProps {
 }
 
 export const NewComponent = ({ className }: NewComponentProps) => {
-    return (
-        <div className={classNames(styles.root, className)}>NewComponent</div>
-    );
+    return <div className={classNames(styles.root, className)}>NewComponent</div>;
 };

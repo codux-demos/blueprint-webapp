@@ -50,11 +50,7 @@ export const ProductItem: React.FC<ProductItemProps> = ({
                 </div>
                 <div className={styles.product_row}>
                     <button className={styles['btn-icon']} type="button">
-                        <Icon
-                            icon="heart"
-                            color={isFavorite ? '#ff7979' : 'white'}
-                            size={20}
-                        />
+                        <Icon icon="heart" color={isFavorite ? '#ff7979' : 'white'} size={20} />
                     </button>
                     <button className={styles['btn-add']} type="button">
                         Add to cart

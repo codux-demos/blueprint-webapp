@@ -46,12 +46,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                 <ProductItem />
             </div>
             <div className={styles.divider}>
-                <svg
-                    viewBox="0 0 300 200"
-                    width="100%"
-                    height="100%"
-                    preserveAspectRatio="none"
-                >
+                <svg viewBox="0 0 300 200" width="100%" height="100%" preserveAspectRatio="none">
                     <path d="M 0,200 C 0,200 300,200 300,0 L 300,200 z"></path>
                 </svg>
             </div>

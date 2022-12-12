@@ -1,12 +1,5 @@
 import type React from 'react';
-import {
-    Elevation,
-    H1,
-    TextArea,
-    Button,
-    Card,
-    InputGroup,
-} from '@blueprintjs/core';
+import { Elevation, H1, TextArea, Button, Card, InputGroup } from '@blueprintjs/core';
 import defaultLogoURL from '../../assets/logo.svg';
 import styles from './form-card.module.scss';
 
@@ -27,43 +20,20 @@ export const FormCard: React.FC<FormCardProps> = ({
     logoURL = defaultLogoURL,
 }) => {
     const submitCaption =
-        formType === 'signin'
-            ? 'Sign In'
-            : formType === 'signup'
-            ? 'Sign Up'
-            : 'Send';
+        formType === 'signin' ? 'Sign In' : formType === 'signup' ? 'Sign Up' : 'Send';
     const formTitle =
-        formType === 'signin'
-            ? 'Sign In'
-            : formType === 'signup'
-            ? 'Sign Up'
-            : 'Contact Us';
+        formType === 'signin' ? 'Sign In' : formType === 'signup' ? 'Sign Up' : 'Contact Us';
 
     return (
-        <Card
-            className={`${styles.card} ${styles.wrapper}`}
-            elevation={Elevation.FOUR}
-        >
+        <Card className={`${styles.card} ${styles.wrapper}`} elevation={Elevation.FOUR}>
             <div className={`${styles.card} ${styles.header}`}>
                 <img className={styles.logo} src={logoURL} />
                 <H1>{formTitle}</H1>
             </div>
-            <InputGroup
-                type="email"
-                fill
-                round
-                placeholder="Your Email"
-                id="email"
-            />
+            <InputGroup type="email" fill round placeholder="Your Email" id="email" />
 
             {formType !== 'contact' ? (
-                <InputGroup
-                    type="password"
-                    fill
-                    round
-                    placeholder="Password"
-                    id="pass"
-                />
+                <InputGroup type="password" fill round placeholder="Password" id="pass" />
             ) : (
                 <TextArea />
             )}

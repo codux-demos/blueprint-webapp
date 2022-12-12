@@ -59,21 +59,16 @@ export const MiniCards: React.FC<MiniCardsProps> = ({
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <Switch defaultChecked large />
                 <div>
-                    <H3 className={styles.title}>
-                        Enable Communication Limits
-                    </H3>
+                    <H3 className={styles.title}>Enable Communication Limits</H3>
                     <p className={`${styles.title} ${styles.sub}`}>
-                        Limits apply to Phone, FaceTime, Messages and iCloud
-                        contacts.{' '}
+                        Limits apply to Phone, FaceTime, Messages and iCloud contacts.{' '}
                     </p>
                 </div>
             </Card>
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <Spinner intent={intent} size={33} />
                 <span />
-                <H3 className={styles.title}>
-                    Software Update Installation...
-                </H3>
+                <H3 className={styles.title}>Software Update Installation...</H3>
             </Card>
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <ProgressBar animate={false} intent={intent} value={0.65} />
