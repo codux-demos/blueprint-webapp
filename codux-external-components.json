@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Blueprint Components",
+    "components": [
+      { "filePath": "@blueprintjs/core", "exportName": "Alert", "name": "Alert" },
+      { "filePath": "@blueprintjs/core", "exportName": "Breadcrumb", "name": "Breadcrumb" },
+      { "filePath": "@blueprintjs/popover2", "exportName": "Breadcrumbs2", "name": "Breadcrumbs" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "AnchorButton", "name": "AnchorButton" },
+      { "filePath": "@blueprintjs/core", "exportName": "Button", "name": "Button" },
+      { "filePath": "@blueprintjs/core", "exportName": "ButtonGroup", "name": "ButtonGroup" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Callout", "name": "Callout" },
+      { "filePath": "@blueprintjs/core", "exportName": "Card", "name": "Card" },
+      { "filePath": "@blueprintjs/core", "exportName": "Collapse", "name": "Collapse" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Dialog", "name": "Dialog" },
+      { "filePath": "@blueprintjs/core", "exportName": "DialogBody", "name": "DialogBody" },
+      { "filePath": "@blueprintjs/core", "exportName": "DialogFooter", "name": "DialogFooter" },
+      { "filePath": "@blueprintjs/core", "exportName": "DialogStep", "name": "DialogStep" },
+      {
+        "filePath": "@blueprintjs/core",
+        "exportName": "MultistepDialog",
+        "name": "MultistepDialog"
+      },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Divider", "name": "Divider" },
+      { "filePath": "@blueprintjs/core", "exportName": "Drawer", "name": "Drawer" },
+      { "filePath": "@blueprintjs/core", "exportName": "EditableText", "name": "EditableText" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "H1", "name": "H1" },
+      { "filePath": "@blueprintjs/core", "exportName": "H2", "name": "H2" },
+      { "filePath": "@blueprintjs/core", "exportName": "H3", "name": "H3" },
+      { "filePath": "@blueprintjs/core", "exportName": "H4", "name": "H4" },
+      { "filePath": "@blueprintjs/core", "exportName": "H5", "name": "H5" },
+      { "filePath": "@blueprintjs/core", "exportName": "H6", "name": "H6" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Blockquote", "name": "Blockquote" },
+      { "filePath": "@blueprintjs/core", "exportName": "Code", "name": "Code" },
+      { "filePath": "@blueprintjs/core", "exportName": "Pre", "name": "Pre" },
+      { "filePath": "@blueprintjs/core", "exportName": "Label", "name": "Label" },
+      { "filePath": "@blueprintjs/core", "exportName": "OL", "name": "OL" },
+      { "filePath": "@blueprintjs/core", "exportName": "UL", "name": "UL" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "HTMLTable", "name": "HTMLTable" },
+      { "filePath": "@blueprintjs/core", "exportName": "Icon", "name": "Icon" },
+      { "filePath": "@blueprintjs/core", "exportName": "Menu", "name": "Menu" },
+      { "filePath": "@blueprintjs/core", "exportName": "MenuDivider", "name": "MenuDivider" },
+      { "filePath": "@blueprintjs/core", "exportName": "MenuItem", "name": "MenuItem" },
+      { "filePath": "@blueprintjs/core", "exportName": "Navbar", "name": "Navbar" },
+      { "filePath": "@blueprintjs/core", "exportName": "NavbarDivider", "name": "NavbarDivider" },
+      { "filePath": "@blueprintjs/core", "exportName": "NavbarGroup", "name": "NavbarGroup" },
+      { "filePath": "@blueprintjs/core", "exportName": "NavbarHeading", "name": "NavbarHeading" },
+      {
+        "filePath": "@blueprintjs/core",
+        "exportName": "NonIdealState",
+        "name": "NonIdealState"
+      },
+      { "filePath": "@blueprintjs/core", "exportName": "OverflowList", "name": "OverflowList" },
+      { "filePath": "@blueprintjs/core", "exportName": "PanelStack2", "name": "PanelStack2" },
+      { "filePath": "@blueprintjs/core", "exportName": "ProgressBar", "name": "ProgressBar" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "HTMLSelect", "name": "HTMLSelect" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "overlay", "name": "overlay" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "popover", "name": "popover" },
+      { "filePath": "@blueprintjs/core", "exportName": "portal", "name": "portal" },
+      { "filePath": "@blueprintjs/core", "exportName": "resize-sensor", "name": "resize-sensor" },
+      { "filePath": "@blueprintjs/core", "exportName": "skeleton", "name": "skeleton" },
+      { "filePath": "@blueprintjs/core", "exportName": "slider", "name": "slider" },
+      { "filePath": "@blueprintjs/core", "exportName": "spinner", "name": "spinner" },
+      { "filePath": "@blueprintjs/core", "exportName": "tabs", "name": "tabs" },
+      { "filePath": "@blueprintjs/core", "exportName": "tag-input", "name": "tag-input" },
+      { "filePath": "@blueprintjs/core", "exportName": "tag", "name": "tag" },
+      { "filePath": "@blueprintjs/core", "exportName": "text", "name": "text" },
+      { "filePath": "@blueprintjs/core", "exportName": "toast", "name": "toast" },
+      { "filePath": "@blueprintjs/core", "exportName": "tooltip", "name": "tooltip" },
+      { "filePath": "@blueprintjs/core", "exportName": "tree", "name": "tree" }
+    ]
+  }
+]
