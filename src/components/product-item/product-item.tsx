@@ -27,7 +27,7 @@ export const ProductItem: React.FC<ProductItemProps> = ({
 }) => {
     return (
         <Card className={styles.product_wrapper} elevation={Elevation.FOUR}>
-            <img className={styles.product_image} src={itemPhotoURL} alt="product" />
+            <img className={styles.product_image} src={itemPhotoURL} alt="" />
             <Card className={styles.product_body}>
                 <div className={styles.product_row}>
                     <p className={styles.product_name}>{itemName}</p>

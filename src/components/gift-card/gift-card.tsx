@@ -21,7 +21,7 @@ export const GiftCard: React.FC<GiftCardProps> = ({ photoURL = defaultPhotoURL, 
             className={`${styles.card}${full ? ` ${styles.full}` : ''}`}
             elevation={Elevation.FOUR}
         >
-            <img src={photoURL} alt="gift card" />
+            <img src={photoURL} alt="" />
             <div className={styles['card-body']}>
                 <H1 className={styles.title}>LASHES & HAIR EXTENTIONS</H1>
                 <H5 className={styles.desc}>
