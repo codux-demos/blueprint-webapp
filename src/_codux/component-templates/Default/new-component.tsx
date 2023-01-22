@@ -8,7 +8,6 @@ export interface NewComponentProps {
 
 /**
  * This component was generated using Codux's built-in Default new component template.
- * Default new component template is located here: /src/_codux/component-templates/Default
  * For details on on how to create custom new component templates, see https://help.codux.com/kb/en/article/configuration-for-new-components-and-templates
  */
 export const NewComponent = ({ className, children = 'NewComponent' }: NewComponentProps) => {
