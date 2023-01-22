@@ -1,5 +1,6 @@
 // google fonts
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,500&display=swap');
+@import '../../globals/colors.module.scss';
 
 // Styles
 .page {
@@ -31,20 +32,20 @@
   .title {
     font-size: 4em;
     font-weight: 700;
-    color: #323232;
+    color: $charcoal-black;
   }
 
   .subtitle {
     font-size: 1.5em;
     text-align: justify;
     width: 500px;
-    color: whitesmoke;
+    color: $snow-white;
     opacity: 0.6;
   }
 }
 
 .videoBG {
-  background-color: #72b9da;
+  background-color: $aero-blue;
   position: fixed;
   height: 100vh;
   width: 100vw;
@@ -59,10 +60,9 @@
 }
 
 .divider {
-  --color: black;
   position: fixed;
   box-sizing: border-box;
-  border-color: var(--color);
+  border-color: $black;
   border-style: solid;
   border-width: 0;
   border-bottom-width: 0;
@@ -72,6 +72,6 @@
   opacity: 0.5;
 
   svg {
-    fill: var(--color);
+    fill: $black;
   }
 }
