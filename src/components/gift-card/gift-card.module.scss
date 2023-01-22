@@ -1,11 +1,12 @@
 // google fonts
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Nunito+Sans:wght@200&family=Playfair+Display&display=swap');
+@import '../../globals/colors.module.scss';
 
 // Styles
 .card {
   display: flex;
   flex-direction: column;
-  background-color: #fcbcb2;
+  background-color: $melon;
   border-radius: 24px;
   overflow: hidden;
   min-width: 280px;
@@ -49,12 +50,12 @@ img {
 
 .title,
 .price {
-  color: rgb(78, 44, 44);
+  color: $red-berry;
 }
 
 .desc,
 .email {
-  color: rgba(78, 44, 44, 0.8);
+  color: $red-berry-80;
 }
 
 .title {
@@ -77,7 +78,7 @@ img {
 
 .card.full:before {
   content: '';
-  background-color: #161616;
+  background-color: $charcoal-dark;
   z-index: 1;
   opacity: 0.75;
 }
@@ -98,7 +99,7 @@ img {
 
 .card.full .title,
 .card.full .price {
-  color: #fcbcb2;
+  color: $melon;
 }
 
 .card.full .desc {
@@ -107,5 +108,5 @@ img {
 
 .card.full .desc,
 .card.full .email {
-  color: #eeeeeeaf;
+  color: $bright-gray;
 }
