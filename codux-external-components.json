@@ -63,20 +63,29 @@
 
       { "filePath": "@blueprintjs/core", "exportName": "HTMLSelect", "name": "HTMLSelect" },
 
-      { "filePath": "@blueprintjs/core", "exportName": "overlay", "name": "overlay" },
+      { "filePath": "@blueprintjs/core", "exportName": "Overlay", "name": "Overlay" },
+      { "filePath": "@blueprintjs/popover2", "exportName": "Popover2", "name": "Popover" },
+      { "filePath": "@blueprintjs/core", "exportName": "Portal", "name": "Portal" },
+      { "filePath": "@blueprintjs/core", "exportName": "Spinner", "name": "Spinner" },
 
-      { "filePath": "@blueprintjs/core", "exportName": "popover", "name": "popover" },
-      { "filePath": "@blueprintjs/core", "exportName": "portal", "name": "portal" },
-      { "filePath": "@blueprintjs/core", "exportName": "skeleton", "name": "skeleton" },
-      { "filePath": "@blueprintjs/core", "exportName": "slider", "name": "slider" },
-      { "filePath": "@blueprintjs/core", "exportName": "spinner", "name": "spinner" },
-      { "filePath": "@blueprintjs/core", "exportName": "tabs", "name": "tabs" },
-      { "filePath": "@blueprintjs/core", "exportName": "tag-input", "name": "tag-input" },
-      { "filePath": "@blueprintjs/core", "exportName": "tag", "name": "tag" },
-      { "filePath": "@blueprintjs/core", "exportName": "text", "name": "text" },
-      { "filePath": "@blueprintjs/core", "exportName": "toast", "name": "toast" },
-      { "filePath": "@blueprintjs/core", "exportName": "tooltip", "name": "tooltip" },
-      { "filePath": "@blueprintjs/core", "exportName": "tree", "name": "tree" }
+      { "filePath": "@blueprintjs/core", "exportName": "Slider", "name": "Slider" },
+      { "filePath": "@blueprintjs/core", "exportName": "RangeSlider", "name": "RangeSlider" },
+      { "filePath": "@blueprintjs/core", "exportName": "MultiSlider", "name": "MultiSlider" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Tab", "name": "Tab" },
+      { "filePath": "@blueprintjs/core", "exportName": "Tabs", "name": "Tabs" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Tag", "name": "Tag" },
+      { "filePath": "@blueprintjs/core", "exportName": "TagInput", "name": "TagInput" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Text", "name": "Text" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Toast", "name": "Toast" },
+      { "filePath": "@blueprintjs/core", "exportName": "Toaster", "name": "Toaster" },
+
+      { "filePath": "blueprintjs/popover2", "exportName": "Tooltip2", "name": "Tooltip" },
+
+      { "filePath": "@blueprintjs/core", "exportName": "Tree", "name": "Tree" }
     ]
   }
 ]
