@@ -6,7 +6,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: $melon;
+  background-color: $light-pink;
   border-radius: 24px;
   overflow: hidden;
   min-width: 280px;
@@ -50,12 +50,12 @@ img {
 
 .title,
 .price {
-  color: $red-berry;
+  color: $maroon;
 }
 
 .desc,
 .email {
-  color: $red-berry-80;
+  color: $maroon-light;
 }
 
 .title {
@@ -99,7 +99,7 @@ img {
 
 .card.full .title,
 .card.full .price {
-  color: $melon;
+  color: $light-pink;
 }
 
 .card.full .desc {
@@ -108,5 +108,5 @@ img {
 
 .card.full .desc,
 .card.full .email {
-  color: $bright-gray;
+  color: $light-gray;
 }
