@@ -55,7 +55,7 @@ export const MiniCards: React.FC<MiniCardsProps> = ({
 
     return (
         <Card className={styles.wrapper}>
-            <img className={styles.logo} src={logo} />
+            <img className={styles.logo} src={logo} alt="card logo" />
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <Switch defaultChecked large />
                 <div>

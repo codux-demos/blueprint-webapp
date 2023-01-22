@@ -27,7 +27,7 @@ export const FormCard: React.FC<FormCardProps> = ({
     return (
         <Card className={`${styles.card} ${styles.wrapper}`} elevation={Elevation.FOUR}>
             <div className={`${styles.card} ${styles.header}`}>
-                <img className={styles.logo} src={logoURL} />
+                <img className={styles.logo} src={logoURL} alt="form card logo" />
                 <H1>{formTitle}</H1>
             </div>
             <InputGroup type="email" fill round placeholder="Your Email" id="email" />

@@ -39,7 +39,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             </div>
             <div className={styles.content}>
                 <div className={styles.cols}>
-                    <img className={styles.logo} src={logoURL} />
+                    <img className={styles.logo} src={logoURL} alt="cafe logo" />
                     <p className={styles.title}>{title}</p>
                     <p className={styles.subtitle}> {subTitle}</p>
                 </div>
