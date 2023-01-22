@@ -26,7 +26,7 @@ export const GiftCard = ({
 }: GiftCardProps) => {
     return (
         <Card
-            className={classNames(styles.card, className, { ['full']: styles.full })}
+            className={classNames(styles.card, className, { [styles.full]: full })}
             elevation={Elevation.FOUR}
         >
             <img src={photoURL} />
