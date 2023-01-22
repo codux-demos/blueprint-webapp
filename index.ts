@@ -41,4 +41,5 @@ import {
     OverflowList,
     PanelStack2,
     ProgressBar,
+    ResizeSensor,
 } from '@blueprintjs/core';

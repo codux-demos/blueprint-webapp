@@ -59,6 +59,7 @@
       { "filePath": "@blueprintjs/core", "exportName": "OverflowList", "name": "OverflowList" },
       { "filePath": "@blueprintjs/core", "exportName": "PanelStack2", "name": "PanelStack2" },
       { "filePath": "@blueprintjs/core", "exportName": "ProgressBar", "name": "ProgressBar" },
+      { "filePath": "@blueprintjs/core", "exportName": "ResizeSensor", "name": "ResizeSensor" },
 
       { "filePath": "@blueprintjs/core", "exportName": "HTMLSelect", "name": "HTMLSelect" },
 
@@ -66,7 +67,6 @@
 
       { "filePath": "@blueprintjs/core", "exportName": "popover", "name": "popover" },
       { "filePath": "@blueprintjs/core", "exportName": "portal", "name": "portal" },
-      { "filePath": "@blueprintjs/core", "exportName": "resize-sensor", "name": "resize-sensor" },
       { "filePath": "@blueprintjs/core", "exportName": "skeleton", "name": "skeleton" },
       { "filePath": "@blueprintjs/core", "exportName": "slider", "name": "slider" },
       { "filePath": "@blueprintjs/core", "exportName": "spinner", "name": "spinner" },
