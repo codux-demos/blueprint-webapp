@@ -29,7 +29,7 @@ export const FormCard = ({ className, children, formType = 'signin' }: FormCardP
             elevation={Elevation.FOUR}
         >
             <div className={classNames(styles.card, styles.header)}>
-                <img className={styles.logo} src={logoURL} />
+                <img className={styles.logo} src={logoURL} alt="" />
                 <H1>{formTitle}</H1>
             </div>
             <InputGroup type="email" fill round placeholder="Your Email" id="email" />
