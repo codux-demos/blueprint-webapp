@@ -29,7 +29,7 @@ export const GiftCard = ({
             className={classNames(styles.card, className, { [styles.full]: full })}
             elevation={Elevation.FOUR}
         >
-            <img src={photoURL} />
+            <img src={photoURL} alt="" />
             <div className={styles['card-body']}>
                 <H1 className={styles.title}>LASHES & HAIR EXTENTIONS</H1>
                 <H5 className={styles.desc}>

@@ -60,7 +60,7 @@ export const MiniCards = ({
 
     return (
         <Card className={classNames(styles.wrapper, className)}>
-            <img className={styles.logo} src={logo} />
+            <img className={styles.logo} src={logo} alt="" />
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <Switch defaultChecked large />
                 <div>

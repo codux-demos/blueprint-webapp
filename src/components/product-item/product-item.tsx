@@ -32,7 +32,7 @@ export const ProductItem = ({
 }: ProductItemProps) => {
     return (
         <Card className={classNames(styles.product_wrapper, className)} elevation={Elevation.FOUR}>
-            <img className={styles.product_image} src={itemPhotoURL} />
+            <img className={styles.product_image} src={itemPhotoURL} alt="" />
             <Card className={styles.product_body}>
                 <div className={styles.product_row}>
                     <p className={styles.product_name}>{itemName}</p>
