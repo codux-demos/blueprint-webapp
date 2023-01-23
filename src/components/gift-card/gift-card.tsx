@@ -1,11 +1,14 @@
 import type React from 'react';
 import { Elevation, H1, H5, H6, Card } from '@blueprintjs/core';
+import classNames from 'classnames';
 import defaultPhotoURL from '../../assets/img-1.jpg';
 import styles from './gift-card.module.scss';
 
 export interface GiftCardProps {
     photoURL?: string;
     full?: boolean;
+    children?: React.ReactNode;
+    className?: string;
 }
 
 /**
@@ -15,10 +18,15 @@ export interface GiftCardProps {
  * Use this demo to get a feel for how easy and fun it is to create and edit components in Codux using Blueprint.js, a 3rd party React-based UI toolkit.
  *
  */
-export const GiftCard: React.FC<GiftCardProps> = ({ photoURL = defaultPhotoURL, full = false }) => {
+export const GiftCard = ({
+    className,
+    children,
+    photoURL = defaultPhotoURL,
+    full = false,
+}: GiftCardProps) => {
     return (
         <Card
-            className={`${styles.card}${full ? ` ${styles.full}` : ''}`}
+            className={classNames(styles.card, className, { [styles.full]: full })}
             elevation={Elevation.FOUR}
         >
             <img src={photoURL} />
@@ -29,6 +37,7 @@ export const GiftCard: React.FC<GiftCardProps> = ({ photoURL = defaultPhotoURL, 
                     vitae arcu. Nam euismod, neque quis laoreet interdum. Sed magna est, dictum at
                     faucibus.
                 </H5>
+                <div>{children}</div>
                 <div className={styles.promo}>
                     <H6 className={styles.email}>
                         EMAIL | <br /> INFO@MYSITE.COM
