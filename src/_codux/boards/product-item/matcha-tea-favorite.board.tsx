@@ -7,7 +7,7 @@ export default createBoard({
     Board: () => (
         <ProductItem
             isFavorite={true}
-            itemName="Matche Tea"
+            itemName="Matcha Tea"
             itemPhotoURL={itemPhoto}
             itemPrice={9.99}
             itemDescription="240 calories, 32g sugar, 7g fat."

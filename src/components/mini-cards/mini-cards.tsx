@@ -10,12 +10,15 @@ import {
     Callout,
     IconName,
 } from '@blueprintjs/core';
+import classNames from 'classnames';
 import logo from '../../assets/logo.svg';
 import styles from './mini-cards.module.scss';
 
 export interface MiniCardsProps {
     intent?: 'primary' | 'success' | 'warning' | 'danger';
     calloutText?: string;
+    children?: React.ReactNode;
+    className?: string;
 }
 
 /**
@@ -25,10 +28,12 @@ export interface MiniCardsProps {
  * Use this demo to get a feel for how easy and fun it is to create and edit components in Codux using Blueprint.js, a 3rd party React-based UI toolkit.
  *
  */
-export const MiniCards: React.FC<MiniCardsProps> = ({
+export const MiniCards = ({
+    children,
+    className,
     intent = 'primary',
     calloutText = 'Aliquam imperdiet lacus quam, imperdiet fermentum lectus pretium vitae. Curabitur quis porttitor lorem, sed porttitor erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam et blandit nisi. Curabitur iaculis vitae tellus sed hendrerit. Vestbulum fringilla massa in quam iaculis ullamcorper.',
-}) => {
+}: MiniCardsProps) => {
     let calloutTitle: string, calloutIcon: IconName;
 
     switch (intent) {
@@ -54,7 +59,7 @@ export const MiniCards: React.FC<MiniCardsProps> = ({
     }
 
     return (
-        <Card className={styles.wrapper}>
+        <Card className={classNames(styles.wrapper, className)}>
             <img className={styles.logo} src={logo} alt="" />
             <Card className={styles.card} elevation={Elevation.THREE}>
                 <Switch defaultChecked large />
@@ -76,8 +81,9 @@ export const MiniCards: React.FC<MiniCardsProps> = ({
                 <Button className={styles.btn} intent={intent} icon="cross" />
             </Card>
             <Callout title={calloutTitle} icon={calloutIcon} intent={intent}>
-                <p className={`${styles.title} ${styles.sub}`}>{calloutText}</p>
+                <p className={classNames(styles.title, styles.sub)}>{calloutText}</p>
             </Callout>
+            <div>{children}</div>
         </Card>
     );
 };

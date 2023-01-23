@@ -6,7 +6,7 @@ export default createBoard({
     name: 'Matcha Tea ',
     Board: () => (
         <ProductItem
-            itemName="Matche Tea"
+            itemName="Matcha Tea"
             itemPhotoURL={itemPhoto}
             itemPrice={9.99}
             itemDescription="240 calories, 32g sugar, 7g fat."

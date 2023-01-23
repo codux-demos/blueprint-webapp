@@ -1,5 +1,6 @@
 // google fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import '../../globals/colors.module.scss';
 
 // Styles
 .product {
@@ -7,7 +8,7 @@
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    background-color: #e4f3f7;
+    background-color: $dirty-white;
     border-radius: 2rem;
     overflow: hidden;
     min-width: 350px;
@@ -57,7 +58,7 @@
     font-size: 16px;
     font-weight: 300;
     text-align: justify;
-    color: #8e8e93;
+    color: $tag-gray;
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
@@ -70,7 +71,7 @@
 }
 
 .btn-icon {
-  background: #54b2cf;
+  background: $turquoise-blue;
   display: inline-block;
   padding: 1.25rem;
   border-radius: 50%;
@@ -80,8 +81,8 @@
 
 .btn-add {
   display: inline-block;
-  color: #ffffff;
-  background: #323232;
+  color: $white;
+  background: $charcoal-black;
   border-radius: 2rem;
   padding: 1.25rem 4.5rem;
   font-size: 14px;
@@ -98,7 +99,7 @@ input[type='radio'] {
   margin: 0;
   width: 1.15em;
   height: 1.15em;
-  border: 0.04em solid black;
+  border: 0.04em solid $black;
   border-radius: 50%;
 
   font-size: 1.22rem;
@@ -109,7 +110,7 @@ input[type='radio']::before {
   width: 0.46em;
   height: 0.46em;
   border-radius: 50%;
-  background-color: black;
+  background-color: $black;
   transform: scale(0);
 }
 
