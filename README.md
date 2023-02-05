@@ -1,13 +1,16 @@
-# Blueprint-webapp
+<div align="center">  
+    <img height="50"src="./src/assets/codux.svg">  
+    <h1 ><img height="24"src="./src/assets/blueprint.svg"> Blueprint Playground by Codux</h1>
+</div>
 
-This project includes a collection of [Blueprint](https://blueprintjs.com) components for you to use, and for us to showcase the capabilities of Codux.
+### A Visual IDE for React Projects
 
-Use this example to get a feel for how easy and fun it is to create and edit components in Codux that are based on 3rd party component libraries.
+Codux is an all-in-one visual development environment. Whether you’re starting a new app, creating components, or editing an existing project, every visual change you make reflects instantly in the code and vice versa. To learn more about Codux, visit our website - [https://www.codux.com/](https://www.codux.com/)
 
-## Getting Started
+### Take it for a Spin
 
-Install the latest version of the Codux desktop application to get started. Refer [here](https://codux.wixanswers.com/kb/en/article/kb14826) for prerequisites and setup instructions.
+This repo provides an interactive playground for Blueprint UI toolkit. It's a great way to explore how the library and Codux work.
 
-After installing the desktop application, have a look at [adding a GitHub project](https://codux.wixanswers.com/kb/en/article/kb15627) to see how to clone a project from Codux. Use this URL for the repo to clone: **`https://github.com/codux-demos/blueprint-webapp/`**
-
-Once you’ve cloned the project, just run the installation script when prompted (see [Understanding Project Scripts](https://codux.wixanswers.com/kb/en/article/kb19225)). The project will be ready for you to use after you restart Codux.
+-   Learn how to edit, render and compose apps that make use of [@blueprintjs/core](https://blueprintjs.com/docs/#core) components.
+-   Create React-based components with TypeScript, SCSS and CSS Modules support.
+-   Visually edit in real-time and in an isolated environment.
